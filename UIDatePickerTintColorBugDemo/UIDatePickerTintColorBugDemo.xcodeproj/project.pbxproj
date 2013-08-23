@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC3C7FF17C7101F001DF765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3C7FE17C7101F001DF765 /* Foundation.framework */; };
+		FEC3C80117C7101F001DF765 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3C80017C7101F001DF765 /* CoreGraphics.framework */; };
+		FEC3C80317C7101F001DF765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3C80217C7101F001DF765 /* UIKit.framework */; };
+		FEC3C80917C7101F001DF765 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEC3C80717C7101F001DF765 /* InfoPlist.strings */; };
+		FEC3C80B17C7101F001DF765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3C80A17C7101F001DF765 /* main.m */; };
+		FEC3C80F17C7101F001DF765 /* LNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3C80E17C7101F001DF765 /* LNAppDelegate.m */; };
+		FEC3C81217C7101F001DF765 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3C81017C7101F001DF765 /* Main_iPhone.storyboard */; };
+		FEC3C81517C7101F001DF765 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3C81317C7101F001DF765 /* Main_iPad.storyboard */; };
+		FEC3C81817C7101F001DF765 /* LNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3C81717C7101F001DF765 /* LNViewController.m */; };
+		FEC3C81A17C7101F001DF765 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC3C81917C7101F001DF765 /* Images.xcassets */; };
+		FEC3C82117C7101F001DF765 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3C82017C7101F001DF765 /* XCTest.framework */; };
+		FEC3C82217C7101F001DF765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3C7FE17C7101F001DF765 /* Foundation.framework */; };
+		FEC3C82317C7101F001DF765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3C80217C7101F001DF765 /* UIKit.framework */; };
+		FEC3C82B17C7101F001DF765 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEC3C82917C7101F001DF765 /* InfoPlist.strings */; };
+		FEC3C82D17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3C82C17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEC3C82417C7101F001DF765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEC3C7F317C7101F001DF765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC3C7FA17C7101F001DF765;
+			remoteInfo = UIDatePickerTintColorBugDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEC3C7FB17C7101F001DF765 /* UIDatePickerTintColorBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDatePickerTintColorBugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC3C7FE17C7101F001DF765 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEC3C80017C7101F001DF765 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEC3C80217C7101F001DF765 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEC3C80617C7101F001DF765 /* UIDatePickerTintColorBugDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIDatePickerTintColorBugDemo-Info.plist"; sourceTree = "<group>"; };
+		FEC3C80817C7101F001DF765 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEC3C80A17C7101F001DF765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEC3C80C17C7101F001DF765 /* UIDatePickerTintColorBugDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDatePickerTintColorBugDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FEC3C80D17C7101F001DF765 /* LNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAppDelegate.h; sourceTree = "<group>"; };
+		FEC3C80E17C7101F001DF765 /* LNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAppDelegate.m; sourceTree = "<group>"; };
+		FEC3C81117C7101F001DF765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FEC3C81417C7101F001DF765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FEC3C81617C7101F001DF765 /* LNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNViewController.h; sourceTree = "<group>"; };
+		FEC3C81717C7101F001DF765 /* LNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNViewController.m; sourceTree = "<group>"; };
+		FEC3C81917C7101F001DF765 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FEC3C81F17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDatePickerTintColorBugDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC3C82017C7101F001DF765 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FEC3C82817C7101F001DF765 /* UIDatePickerTintColorBugDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIDatePickerTintColorBugDemoTests-Info.plist"; sourceTree = "<group>"; };
+		FEC3C82A17C7101F001DF765 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEC3C82C17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDatePickerTintColorBugDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC3C7F817C7101F001DF765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3C80117C7101F001DF765 /* CoreGraphics.framework in Frameworks */,
+				FEC3C80317C7101F001DF765 /* UIKit.framework in Frameworks */,
+				FEC3C7FF17C7101F001DF765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC3C81C17C7101F001DF765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3C82117C7101F001DF765 /* XCTest.framework in Frameworks */,
+				FEC3C82317C7101F001DF765 /* UIKit.framework in Frameworks */,
+				FEC3C82217C7101F001DF765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC3C7F217C7101F001DF765 = {
+			isa = PBXGroup;
+			children = (
+				FEC3C80417C7101F001DF765 /* UIDatePickerTintColorBugDemo */,
+				FEC3C82617C7101F001DF765 /* UIDatePickerTintColorBugDemoTests */,
+				FEC3C7FD17C7101F001DF765 /* Frameworks */,
+				FEC3C7FC17C7101F001DF765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC3C7FC17C7101F001DF765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3C7FB17C7101F001DF765 /* UIDatePickerTintColorBugDemo.app */,
+				FEC3C81F17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC3C7FD17C7101F001DF765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3C7FE17C7101F001DF765 /* Foundation.framework */,
+				FEC3C80017C7101F001DF765 /* CoreGraphics.framework */,
+				FEC3C80217C7101F001DF765 /* UIKit.framework */,
+				FEC3C82017C7101F001DF765 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEC3C80417C7101F001DF765 /* UIDatePickerTintColorBugDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3C80D17C7101F001DF765 /* LNAppDelegate.h */,
+				FEC3C80E17C7101F001DF765 /* LNAppDelegate.m */,
+				FEC3C81017C7101F001DF765 /* Main_iPhone.storyboard */,
+				FEC3C81317C7101F001DF765 /* Main_iPad.storyboard */,
+				FEC3C81617C7101F001DF765 /* LNViewController.h */,
+				FEC3C81717C7101F001DF765 /* LNViewController.m */,
+				FEC3C81917C7101F001DF765 /* Images.xcassets */,
+				FEC3C80517C7101F001DF765 /* Supporting Files */,
+			);
+			path = UIDatePickerTintColorBugDemo;
+			sourceTree = "<group>";
+		};
+		FEC3C80517C7101F001DF765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3C80617C7101F001DF765 /* UIDatePickerTintColorBugDemo-Info.plist */,
+				FEC3C80717C7101F001DF765 /* InfoPlist.strings */,
+				FEC3C80A17C7101F001DF765 /* main.m */,
+				FEC3C80C17C7101F001DF765 /* UIDatePickerTintColorBugDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEC3C82617C7101F001DF765 /* UIDatePickerTintColorBugDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3C82C17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.m */,
+				FEC3C82717C7101F001DF765 /* Supporting Files */,
+			);
+			path = UIDatePickerTintColorBugDemoTests;
+			sourceTree = "<group>";
+		};
+		FEC3C82717C7101F001DF765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3C82817C7101F001DF765 /* UIDatePickerTintColorBugDemoTests-Info.plist */,
+				FEC3C82917C7101F001DF765 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC3C7FA17C7101F001DF765 /* UIDatePickerTintColorBugDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC3C83017C7101F001DF765 /* Build configuration list for PBXNativeTarget "UIDatePickerTintColorBugDemo" */;
+			buildPhases = (
+				FEC3C7F717C7101F001DF765 /* Sources */,
+				FEC3C7F817C7101F001DF765 /* Frameworks */,
+				FEC3C7F917C7101F001DF765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIDatePickerTintColorBugDemo;
+			productName = UIDatePickerTintColorBugDemo;
+			productReference = FEC3C7FB17C7101F001DF765 /* UIDatePickerTintColorBugDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEC3C81E17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC3C83317C7101F001DF765 /* Build configuration list for PBXNativeTarget "UIDatePickerTintColorBugDemoTests" */;
+			buildPhases = (
+				FEC3C81B17C7101F001DF765 /* Sources */,
+				FEC3C81C17C7101F001DF765 /* Frameworks */,
+				FEC3C81D17C7101F001DF765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEC3C82517C7101F001DF765 /* PBXTargetDependency */,
+			);
+			name = UIDatePickerTintColorBugDemoTests;
+			productName = UIDatePickerTintColorBugDemoTests;
+			productReference = FEC3C81F17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC3C7F317C7101F001DF765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Daniel Johns";
+				TargetAttributes = {
+					FEC3C81E17C7101F001DF765 = {
+						TestTargetID = FEC3C7FA17C7101F001DF765;
+					};
+				};
+			};
+			buildConfigurationList = FEC3C7F617C7101F001DF765 /* Build configuration list for PBXProject "UIDatePickerTintColorBugDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEC3C7F217C7101F001DF765;
+			productRefGroup = FEC3C7FC17C7101F001DF765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC3C7FA17C7101F001DF765 /* UIDatePickerTintColorBugDemo */,
+				FEC3C81E17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC3C7F917C7101F001DF765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3C81517C7101F001DF765 /* Main_iPad.storyboard in Resources */,
+				FEC3C81A17C7101F001DF765 /* Images.xcassets in Resources */,
+				FEC3C81217C7101F001DF765 /* Main_iPhone.storyboard in Resources */,
+				FEC3C80917C7101F001DF765 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC3C81D17C7101F001DF765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3C82B17C7101F001DF765 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC3C7F717C7101F001DF765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3C80F17C7101F001DF765 /* LNAppDelegate.m in Sources */,
+				FEC3C80B17C7101F001DF765 /* main.m in Sources */,
+				FEC3C81817C7101F001DF765 /* LNViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC3C81B17C7101F001DF765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC3C82D17C7101F001DF765 /* UIDatePickerTintColorBugDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEC3C82517C7101F001DF765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC3C7FA17C7101F001DF765 /* UIDatePickerTintColorBugDemo */;
+			targetProxy = FEC3C82417C7101F001DF765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEC3C80717C7101F001DF765 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC3C80817C7101F001DF765 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEC3C81017C7101F001DF765 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC3C81117C7101F001DF765 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FEC3C81317C7101F001DF765 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC3C81417C7101F001DF765 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FEC3C82917C7101F001DF765 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC3C82A17C7101F001DF765 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC3C82E17C7101F001DF765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC3C82F17C7101F001DF765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC3C83117C7101F001DF765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIDatePickerTintColorBugDemo/UIDatePickerTintColorBugDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIDatePickerTintColorBugDemo/UIDatePickerTintColorBugDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEC3C83217C7101F001DF765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIDatePickerTintColorBugDemo/UIDatePickerTintColorBugDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIDatePickerTintColorBugDemo/UIDatePickerTintColorBugDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FEC3C83417C7101F001DF765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIDatePickerTintColorBugDemo.app/UIDatePickerTintColorBugDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIDatePickerTintColorBugDemo/UIDatePickerTintColorBugDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIDatePickerTintColorBugDemoTests/UIDatePickerTintColorBugDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FEC3C83517C7101F001DF765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIDatePickerTintColorBugDemo.app/UIDatePickerTintColorBugDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIDatePickerTintColorBugDemo/UIDatePickerTintColorBugDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIDatePickerTintColorBugDemoTests/UIDatePickerTintColorBugDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC3C7F617C7101F001DF765 /* Build configuration list for PBXProject "UIDatePickerTintColorBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC3C82E17C7101F001DF765 /* Debug */,
+				FEC3C82F17C7101F001DF765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC3C83017C7101F001DF765 /* Build configuration list for PBXNativeTarget "UIDatePickerTintColorBugDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC3C83117C7101F001DF765 /* Debug */,
+				FEC3C83217C7101F001DF765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEC3C83317C7101F001DF765 /* Build configuration list for PBXNativeTarget "UIDatePickerTintColorBugDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC3C83417C7101F001DF765 /* Debug */,
+				FEC3C83517C7101F001DF765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC3C7F317C7101F001DF765 /* Project object */;
+}
